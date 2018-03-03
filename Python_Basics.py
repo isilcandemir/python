@@ -1,31 +1,83 @@
+# Example, do not modify!
+print(5 / 8)
 
-#Basic math operators are the same as those in R, except power, **
+# Put code below here
+print(7 + 10)
 
-#assignment operator is =
+# Just testing division
+print(5 / 8)
 
-#structures are: float, integer, str, bool. type(x)
+# Addition works too
+print(7 + 10)
 
-#change the type of values int(), or str()
+# Addition and subtraction
+print(5 + 5)
+print(5 - 5)
 
-#zero-based indexing, also negative indexing x[-1] tail of the list, [sart:end], end exclusive
+# Multiplication and division
+print(3 * 5)
+print(10 / 2)
 
-#list of lists: x = [["a", "b", "c"], ["d", "e", "f"], ["g", "h", "i"]], x[2][0]
+# Exponentiation
+print(4 ** 2)
 
-#adding element: use plus sign, for remove del(x[1])
+# Modulo
+print(18 % 7)
 
-#don't use y=x, but use y=list(x) or y=x[:]
+# How much is your $100 worth after 7 years?
+print(100 * 1.1 ** 7)
 
-# ; two commands on the same line
+# Create a variable savings
+savings = 100
 
-#calling functions: room.upper()
+# Print out savings
+print(savings)
 
-#areas.append(2); print(areas.reverse())
+# Create a variable savings
+savings = 100
 
-#import numpy as np, or import math, then call functions np.array or math.pi
-#if you call a specific function like from math import pi, then use pi alone, not math.pi
+# Create a variable factor
+factor = 1.1
 
-#numpy, if you have python list isil=[1,2,3] to change it array numpy.array(isil)
-#to get dimension of array isil.shape
-#isil=np.array([[1,2,3],[4,5,6]])
+# Calculate result
+result = savings * factor ** 7
 
+# Print out result
+print(result)
+
+# Create a variable desc
+desc = "compound interest"
+
+# Create a variable profitable
+profitable = True
+
+# Several variables to experiment with
+savings = 100
+factor = 1.1
+desc = "compound interest"
+
+# Assign product of savings and factor to year1
+year1 = savings * factor
+
+# Print the type of year1
+print(type(year1))
+
+# Assign sum of desc and desc to doubledesc
+doubledesc = desc + desc
+
+# Print out doubledesc
+print(doubledesc)
+
+# Definition of savings and result
+savings = 100
+result = 100 * 1.10 ** 7
+
+# Fix the printout
+print("I started with $" + str(savings) + " and now have $" + str(result) + ". Awesome!")
+
+# Definition of pi_string
+pi_string = "3.1415926"
+
+# Convert pi_string into float: pi_float
+pi_float = float(pi_string)
 
