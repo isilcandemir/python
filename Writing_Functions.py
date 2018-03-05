@@ -22,3 +22,5 @@ next(it)
 
 isil=[1,2,3,4]
 new_isil=[x+1 for x in isil]
+
+# [ output expression for iterator variable in iterable if predicate expression ]
