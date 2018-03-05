@@ -20,3 +20,5 @@ isil=[1,2,3,4]
 it=iter(isil)
 next(it)
 
+isil=[1,2,3,4]
+new_isil=[x+1 for x in isil]
