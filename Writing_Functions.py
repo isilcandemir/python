@@ -16,3 +16,7 @@ raise_to_power=lambda x,y: x**y
 
 map(lambda x: x**2, seq)
 
+isil=[1,2,3,4]
+it=iter(isil)
+next(it)
+
