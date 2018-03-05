@@ -28,4 +28,7 @@
 #to get dimension of array isil.shape
 #isil=np.array([[1,2,3],[4,5,6]])
 
-
+#change directory
+import os
+os.chdir("/Users/isilcandemir/Desktop")
+  
