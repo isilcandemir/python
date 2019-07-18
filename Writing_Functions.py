@@ -16,11 +16,11 @@ raise_to_power=lambda x,y: x**y
 
 map(lambda x: x**2, seq)
 
-isil=[1,2,3,4]
-it=iter(isil)
+bebe=[1,2,3,4]
+it=iter(bebe)
 next(it)
 
-isil=[1,2,3,4]
-new_isil=[x+1 for x in isil]
+bebe=[1,2,3,4]
+new_bebe=[x+1 for x in bebe]
 
 # [ output expression for iterator variable in iterable if predicate expression ]
